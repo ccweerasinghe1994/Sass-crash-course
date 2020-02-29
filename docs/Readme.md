@@ -246,3 +246,19 @@ $spaceList: (1, 2, 3, 4, 5);
   padding: 5rem 0;
 }
 ```
+
+> @media quearies
+
+```sass
+@media (max-width: 700px) {
+  .showcase {
+    height: 400px;
+    &-content {
+      text-align: center;
+      img {
+        display: none;
+      }
+    }
+  }
+}
+```
