@@ -15,8 +15,7 @@ body {
 }
 
 .showcase {
-  background-color: $primary-color;
-  color: #fff;
+  @include set-background($primary-color);
   height: 600px;
   nav {
     display: flex;
@@ -33,9 +32,7 @@ body {
       }
     }
   }
-  a {
-    color: white;
-  }
+
   &-content {
     height: 100%;
     display: flex;
@@ -48,9 +45,6 @@ body {
       font-size: 50px;
       line-height: 1.2;
     }
-    p {
-      margin: 0px 0;
-    }
   }
 }
 img {
@@ -59,4 +53,5 @@ img {
 
 a {
   text-decoration: none;
+  @include set-background($primary-color);
 }
