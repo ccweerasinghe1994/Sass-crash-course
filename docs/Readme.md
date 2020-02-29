@@ -163,6 +163,8 @@ $spaceList: (1, 2, 3, 4, 5);
 }
 ```
 
+> output
+
 ```css
 .m-1 {
   margin: 1rem;
